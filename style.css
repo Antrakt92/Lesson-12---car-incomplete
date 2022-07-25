@@ -1,0 +1,666 @@
+.wrapper {
+   width: 100%;
+   /*background-image: url(photo-1531685250784-7569952593d2.avif);*/
+}
+.car {
+   margin: 100px;
+}
+.upper-body {
+   height: 200px;
+   width: 1500px;
+   position: relative;
+
+}
+.upper-body__part1 {
+   /*height: 30px;
+   width: 550px;
+   border-radius: 30%;
+   margin: 0 auto;
+   position: relative;
+   left: -100px;*/
+
+   /*height: 300px;
+   width: 900px;
+   border: 30px solid #1c2025;
+   border-radius: 50%;
+   margin: 0 auto;
+   position: absolute;
+   top: 10px;
+   left: 300px;*/
+   height: 30px;
+   width: 520px;
+   border-radius: 30%;
+   position: absolute;
+   left: 470px;
+   top: -10px;
+   transform: rotate(1deg);
+}
+.upper-body__part2 {
+   height: 69px;
+   width: 1518px;
+   border-radius: 20% 40% 0 20%;
+   position: absolute;
+   top: 75%;
+   left: 56px;
+   transform: rotate(1deg);
+}
+.upper-body__part3 {
+   height: 40px;
+   width: 320px;
+   border-radius: 30% 0 0 0;
+   position: absolute;
+   top: 110px;
+   left: 56px;
+}
+.upper-body__part4 {
+   height: 40px;
+   width: 320px;
+   position: absolute;
+   top: 90px;
+   left: 58px;
+   transform: rotate(-10deg);
+}
+.upper-body__part5 {
+   height: 30px;
+   width: 250px;
+   border-radius: 15%;
+   position: absolute;
+   top: 40px;
+   left: 180px;
+   transform: rotate(-25deg);
+}
+.upper-body__part6 {
+   height: 100px;
+   width: 60px;
+   position: absolute;
+   top: 60px;
+   left: 330px;
+   transform: rotate(-20deg);
+}
+.upper-body__part7 {
+   height: 100px;
+   width: 60px;
+   position: absolute;
+   top: 60px;
+   left: 330px;
+   transform: rotate(-20deg);
+}
+.upper-body__part8 {
+   height: 100px;
+   width: 60px;
+   position: absolute;
+   top: 60px;
+   left: 330px;
+   transform: rotate(-20deg);
+}
+.upper-body__part9 {
+   height: 180px;
+   width: 30px;
+   position: absolute;
+   top: -25px;
+   left: 390px;
+   transform: rotate(50deg);
+}
+.upper-body__part10 {
+   height: 160px;
+   width: 50px;
+   border-radius: 10%;
+   position: absolute;
+   top: -20px;
+   left: 337px;
+   transform: rotate(60deg);
+}
+.upper-body__part11 {
+   height: 100px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -35px;
+   left: 480px;
+   transform: rotate(80deg);
+}
+.upper-body__part12 {
+   height: 370px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -70px;
+   left: 1100px;
+   transform: rotate(-55deg);
+}
+.upper-body__part13 {
+   height: 40px;
+   width: 90px;
+   border-radius: 10% 0 50% 0%;
+   position: absolute;
+   top: -10px;
+   left: 410px;
+   transform: rotate(0deg);
+}
+.upper-body__part14 {
+   height: 30px;
+   width: 20px;
+   border-radius: 40% 0 0 0;
+   position: absolute;
+   top: 1px;
+   left: 975px;
+   transform: rotate(50deg);
+}
+.upper-body__part15 {
+   height: 100px;
+   width: 20px;
+   position: absolute;
+   border-radius: 20%;
+   top: -20px;
+   left: 958px;
+   transform: rotate(-70deg);
+}
+
+.upper-body__window1 {
+   height: 280px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -50px;
+   left: 1085px;
+   transform: rotate(-55deg);
+   background-color: #829ec0;
+   z-index: -1;
+}
+.upper-body__window2 {
+   height: 600px;
+   width: 200px;
+   border-radius: 10%;
+   position: absolute;
+   top: -200px;
+   left: 600px;
+   transform: rotate(90deg);
+   background-color: #829ec0;
+   z-index: -1;
+}
+.upper-body__window3 {
+   height: 100px;
+   width: 200px;
+   border-radius: 10%;
+   position: absolute;
+   top: 70px;
+   left: 940px;
+   transform: rotate(45deg);
+   background-color: #829ec0;
+   z-index: -1;
+}
+.upper-body__part17 {
+   height: 20px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: 5px;
+   left: 980px;
+   transform: rotate(-55deg);
+}
+.upper-body__part18 {
+   height: 90px;
+   width: 40px;
+   border-radius: 10%;
+   position: absolute;
+   top: 70px;
+   left: 394px;
+   z-index: -1;
+   transform: rotate(-20deg);
+   background-color: #45494e;
+}
+.upper-body__part19 {
+   height: 120px;
+   width: 40px;
+   border-radius: 10%;
+   position: absolute;
+   top: 0px;
+   left: 425px;
+   z-index: -1;
+   transform: rotate(40deg);
+   background-color: #45494e;
+}
+.upper-body__part20 {
+   height: 200px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -75px;
+   left: 500px;
+   z-index: -1;
+   transform: rotate(85deg);
+   background-color: #45494e;
+}
+.upper-body__part21 {
+   height: 350px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -155px;
+   left: 752px;
+   z-index: -1;
+   transform: rotate(91deg);
+   background-color: #45494e;
+}
+.upper-body__part22 {
+   height: 130px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -20px;
+   left: 970px;
+   z-index: -1;
+   transform: rotate(110deg);
+   background-color: #45494e;
+}
+.upper-body__part23 {
+   height: 200px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: 10px;
+   left: 1080px;
+   z-index: -1;
+   transform: rotate(-55deg);
+   background-color: #45494e;
+}
+.upper-body__part24 {
+   height: 800px;
+   width: 20px;
+   border-radius: 10%;
+   position: absolute;
+   top: -252px;
+   left: 740px;
+   z-index: -1;
+   transform: rotate(91deg);
+   background-color: #45494e;
+}
+.upper-body__part25 {
+   height: 130px;
+   width: 10px;
+   border-radius: 10%;
+   position: absolute;
+   top: 30px;
+   left: 540px;
+   z-index: -1;
+   transform: rotate(-4deg);
+   background-color: #45494e;
+}
+.upper-body__part26 {
+   height: 130px;
+   width: 30px;
+   border-radius: 10%;
+   position: absolute;
+   top: 25px;
+   left: 780px;
+   z-index: -1;
+   transform: rotate(-4deg);
+   background-color: #45494e;
+}
+.upper-body__part27 {
+   height: 130px;
+   width: 30px;
+   border-radius: 10%;
+   position: absolute;
+   top: 25px;
+   left: 800px;
+   z-index: -1;
+   transform: rotate(-15deg);
+   background-color: #45494e;
+}
+.upper-body__part28 {
+   height: 500px;
+   width: 30px;
+   border-radius: 10%;
+   position: absolute;
+   top: -100px;
+   left: 1400px;
+   transform: rotate(100deg);
+}
+.upper-body__part29 {
+   height: 50px;
+   width: 100px;
+   border-radius: 40% 50% 40% 40%;
+   position: absolute;
+   top: 100px;
+   left: 1010px;
+   transform: rotate(2deg);
+}
+.upper-body__part30 {
+   height: 20px;
+   width: 30px;
+   border-radius: 40% 50% 40% 40%;
+   position: absolute;
+   background-color: #45494e;
+   top: 130px;
+   left: 1100px;
+   z-index: -1;
+   transform: rotate(2deg);
+}
+.car-color {
+   background-color: #1c2025;
+}
+
+.lower-body {
+   width: 1350px;
+   height: 300px;
+   margin-left: 224px;
+   position: relative;
+}
+.lower-body__line1 {
+   height: 420px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 285px;
+   top: -110px;
+   overflow: hidden;
+   transform: rotate(-22deg);
+}
+.lower-body__line2 {
+   height: 450px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 604px;
+   top: -185px;
+   transform: rotate(-9deg);
+}
+.lower-body__line3 {
+   height: 220px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 985px;
+   top: -3px;
+   transform: rotate(0deg);
+}
+.lower-body__line4 {
+   height: 97px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 945px;
+   top: -77px;
+   transform: rotate(-55deg);
+}
+.lower-body__line5 {
+   height: 20px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 915px;
+   top: -72px;
+   transform: rotate(45deg);
+}
+.lower-body__line6 {
+   height: 112px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: 242px;
+   top: -191px;
+   transform: rotate(40deg);
+}
+.lower-body__line7 {
+   height: 150px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: -20px;
+   top: -30px;
+   transform: rotate(-80deg);
+   z-index: 1;
+}
+.lower-body__line8 {
+   height: 70px;
+   width: 4px;
+   background-color: black;
+   position: absolute;
+   left: -114px;
+   top: -30px;
+   transform: rotate(-40deg);
+   z-index: 1;
+}
+.lower-body__bottom {
+   width: 1200px;
+   height: 40px;
+   background-color: #020204;
+   margin: 0 auto;
+   position: absolute;
+   top: 65%;
+   left: -5px;
+   border-radius: 0 0 0 40%;
+   z-index: 2;
+}
+.lower-body__front-part {
+   height: 205px;
+   width: 190px;
+   border-radius: 0 30% 0 0;
+   position: absolute;
+   left: 1340px;
+   top: -5px;
+
+}
+.lower-body__back-part {
+   width: 200px;
+   height: 220px;
+   position: absolute;
+   right: 98.5%;
+   top: -2%;
+   border-radius: 10%;
+   transform: rotate(10deg);
+}
+.trunk {
+   position: relative;
+}
+.trunk__part1 {
+   width: 40px;
+   height: 13px;
+   border-radius: 20%;
+   border: 4px solid #1c2025;
+   background-color: #c6ced8;
+   position: absolute;
+   left: -20px;
+   bottom: -220px;
+}
+.trunk__part2 {
+   width: 10px;
+   height: 30px;
+   border-radius: 20%;
+   background-color: #c6ced8;
+   position: absolute;
+   left: -25px;
+   bottom: -215px;
+   transform: rotate(-20deg);
+}
+.trunk__part3 {
+   width: 19px;
+   height: 30px;
+   border-radius: 20%;
+   position: absolute;
+   left: -10px;
+   bottom: -210px;
+}
+.trunk__part4 {
+   width: 25px;
+   height: 70px;
+   border-radius: 20% 20% 20% 25%; 
+   position: absolute;
+   left: -25px;
+   bottom: -211px;
+   transform: rotate(-20deg);
+}
+.trunk__part5 {
+   width: 40px;
+   height: 70px;
+   border-radius: 20%; 
+   position: absolute;
+   left: -15px;
+   bottom: -180px;
+   transform: rotate(-10deg);
+}
+.trunk__part6 {
+   width: 30px;
+   height: 15px;
+   border-radius: 20%; 
+   position: absolute;
+   left: -15px;
+   bottom: -116px;
+   transform: rotate(-40deg);
+}
+.trunk__part7 {
+   width: 30px;
+   height: 23px;
+   border-radius: 20%; 
+   position: absolute;
+   left: -15px;
+   bottom: -14px;
+   transform: rotate(60deg);
+}
+.trunk__part8 {
+   width: 50px;
+   height: 13px;
+   border-radius: 20%; 
+   background-color: #782926;
+   position: absolute;
+   left: -15px;
+   bottom: 3px;
+   transform: rotate(-10deg);
+   z-index: 1;
+}
+.trunk__part9 {
+   width: 60px;
+   height: 30px;
+   border-radius: 10%;
+   background-color: #782926;
+   position: absolute;
+   left: 10px;
+   bottom: 7px;
+   transform: skew(-30deg, -10deg);
+   z-index: 1;
+}
+
+
+
+
+/*------ WHEEL ------*/
+.empty {
+   width: 1350px;
+   position: relative;
+   top: 10%;
+   display: flex;
+   justify-content: space-between;
+}
+.empty__wheel {
+   width: 280px;
+   height: 280px;
+   border-radius: 50%;
+   background-color: #06050c;
+   margin: 0 -5px
+}
+.empty-flore-wheel {
+   width: 1366px;
+   height: 150px;
+   background-color: #ffff;
+   position: relative;
+   z-index: 1;
+   top: -80px;
+   left: -2px;
+}
+
+.car-tires {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.car-tires__absolute {
+   width: 255px;
+   height: 255px;
+   border-radius: 50%;
+   position: absolute;
+   background-color: #15151e;
+   z-index: 2;
+}
+.car-tires__rims {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   background-color: silver;
+   z-index: 3;
+}
+.car-tires__rims-central {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   background-color: #0d0c13;
+   z-index: 4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.car-tires__rims-arrows {
+   width: 5px;
+   height: 200px;
+   position: absolute;
+   background-color: #0d0c13;
+   z-index: 4;
+}
+.car-tires__rims-arrows_1 {
+   transform: rotate(10deg);
+}
+.car-tires__rims-arrows_2 {
+   transform: rotate(20deg);
+}
+.car-tires__rims-arrows_3 {
+   transform: rotate(30deg);
+}
+.car-tires__rims-arrows_4 {
+   transform: rotate(40deg);
+}
+.car-tires__rims-arrows_5 {
+   transform: rotate(50deg);
+}
+.car-tires__rims-arrows_6 {
+   transform: rotate(60deg);
+}
+.car-tires__rims-arrows_7 {
+   transform: rotate(70deg);
+}
+.car-tires__rims-arrows_8 {
+   transform: rotate(80deg);
+}
+.car-tires__rims-arrows_9 {
+   transform: rotate(90deg);
+}
+.car-tires__rims-arrows_10 {
+   transform: rotate(100deg);
+}
+.car-tires__rims-arrows_11 {
+   transform: rotate(110deg);
+}
+.car-tires__rims-arrows_12 {
+   transform: rotate(120deg);
+}
+.car-tires__rims-arrows_13 {
+   transform: rotate(130deg);
+}
+.car-tires__rims-arrows_14 {
+   transform: rotate(140deg);
+}
+.car-tires__rims-arrows_15 {
+   transform: rotate(150deg);
+}
+.car-tires__rims-arrows_16 {
+   transform: rotate(160deg);
+}
+.car-tires__rims-arrows_17 {
+   transform: rotate(170deg);
+}
+/*------ WHEEL ------*/
+
+
+
